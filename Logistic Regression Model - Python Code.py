@@ -7,6 +7,11 @@ Created on Thu Jul  4 17:55:08 2019
 
 # ## Import the Libraries
 
+def warn(*args, **kwargs):
+    pass
+import warnings
+warnings.warn = warn
+
 # Data Manupulation
 import numpy as np
 import pandas as pd
@@ -29,10 +34,10 @@ yf.pdr_override()
 
 
 # ## Import the data
-df = pdr.get_data_yahoo('^NSEI', '2000-01-01', '2018-01-01')
+df = pdr.get_data_yahoo('AAPL', '2000-01-01', '2018-01-01')
 df = df.dropna()
 df = df.iloc[:,:4]
-df.head()
+
 print(1)
 
 # ## Create Indicators
@@ -64,7 +69,7 @@ print(metrics.confusion_matrix(y_test, predicted))
 
 print(metrics.classification_report(y_test, predicted))
 
-print(model.score(X_test,y_test))  
+print(model.score(X_test,y_test))
 
 cross_val = cross_val_score(LogisticRegression(), X, y, scoring='accuracy', cv=10)
 print(cross_val)
