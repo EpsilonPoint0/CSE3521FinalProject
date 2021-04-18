@@ -10,6 +10,12 @@
 4. Matplotlib
 5. sklearn (For comparison only)
 6. yFinance (This library can download data right from the website)
+
+## How To Run
+To run the ID3 algorithm
+
+To run the Logistic Regression algorithm
+
 ## **TO-DO**
 1. Possibly download more data from various companies and modify the files to look like the current train and test data.
 2. Keep testing to see if the current implementation of the ID3 algorithm is producing reasonable results.
