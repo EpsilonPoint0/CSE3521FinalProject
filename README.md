@@ -11,6 +11,7 @@
 5. sklearn (For comparison only)
 6. yFinance (This library can download data right from the website)
 
+
 ## **Execution**
 - To run the ID3 algortihm on with the input data from the Data folder use: `python3 ID3.py`
 - To run the logistic regression algorithm on the data use: `python3 Linear_Classifier.py`
@@ -30,6 +31,7 @@
     - AAPL accuracy: 0.53
     - TSLA accuracy: 0.5
     - FB accuracy: 0.55
+
 ## **TO-DO**
 1. ~~Possibly download more data from various companies and modify the files to look like the current train and test data.~~
 2. ~~Keep testing to see if the current implementation of the ID3 algorithm is producing reasonable results.~~
