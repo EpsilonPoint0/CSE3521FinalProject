@@ -157,10 +157,10 @@ if __name__ == "__main__":
 
     script_dir = os.path.dirname(__file__)
 
-    test_files = ["Data/Test/FB1.csv", "Data/Test/AAPL1.csv"]
-    train_files = ["Data/Train/FB2.csv", "Data/Train/AAPL2.csv"]
+    test_files = ["Data/Test/FB.csv", "Data/Test/AAPL.csv", "Data/Test/TSLA.csv"]
+    train_files = ["Data/Train/FB.csv", "Data/Train/AAPL.csv", "Data/Train/TSLA.csv"]
 
-    while i < 2:
+    while i < 3:
 
         train = DataStucture(train_files[i])
         test = DataStucture(test_files[i])
