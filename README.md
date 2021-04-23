@@ -26,7 +26,12 @@
    - Accuracy: training set:  0.4857142857142857
    - Accuracy: test set:  0.49765258215962443
 3. "Off the shelf" implementation of ID3:
-   - **TO DO**
+   - Train accuracy for Data/FB.csv: 1.0
+   - Test accuracy for Data/FB.csv: 0.43137254901960786
+   - Train accuracy for Data/AAPL.csv: 1.0
+   - Test accuracy for Data/AAPL.csv: 0.43137254901960786
+   - Train accuracy for Data/TSLA.csv: 1.0
+   - Test accuracy for Data/TSLA.csv: 0.4117647058823529
 4. "Off the shelf" implementation of logistic regression:
     - AAPL accuracy: 0.53
     - TSLA accuracy: 0.5

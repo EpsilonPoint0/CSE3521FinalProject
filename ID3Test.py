@@ -29,8 +29,8 @@ for i in range(3):
 
     tree = DecisionTreeClassifier().fit(X_train, Y_train)
 
-    print(f"Train ccuracy for {test_files[i]}: {tree.score(X_train, Y_train)}")
+    print(f"Train accuracy for {test_files[i]}: {tree.score(X_train, Y_train)}")
 
-    print(f"Train ccuracy for {test_files[i]}: {tree.score(X_test, Y_test)}")
+    print(f"Test accuracy for {test_files[i]}: {tree.score(X_test, Y_test)}")
 
     tree_prediction = tree.predict(X_test)
