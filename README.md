@@ -2,6 +2,9 @@
 - We plan on solving the problem of figuring out trends in companies stocks.  We plan on taking the data from the companies on the NYSE as well as data pertaining to those companies on social media.  We will use this data to see trends and predict the price changes for those companies.
 - References
     - https://finance.yahoo.com/quote/FB/history?guccounter=1&guce_referrer=aHR0cHM6Ly9kdWNrZHVja2dvLmNvbS8&guce_referrer_sig=AQAAAFxzXK9K7J8mbd6BJArTIqLEjf7aHLNt04Ha85bCO_j80mBSdIOLzXVTtCa-0F-MGuAQzoeMldDhJMAkCEvl_1zPW37X62JBC6U3lSIpf8qdPJOUbPRE36xUMtm9EX-vp8x2_1UJzN_-bMg6EzOxbJyD_TttSAdQmdQNPuIJdPTP
+    -  https://finance.yahoo.com/quote/FB/history?period1=1584057600&period2=1615593600&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+    -  https://finance.yahoo.com/quote/AAPL/history?period1=1584057600&period2=1615593600&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+    -  https://finance.yahoo.com/quote/TSLA/history?period1=1584057600&period2=1615593600&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
     - https://blog.quantinsti.com/machine-learning-logistic-regression-python/
 ## **Required Libraries**
 1. NumPy
